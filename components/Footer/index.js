@@ -10,7 +10,9 @@ export default function Footer() {
     <footer className={styles.footer}>
       <Grid container alignItems={'center'}>
         <Grid item xs={6}>
-          <a href="">
+          <a
+            href="https://github.com/mertvural/Job-Tracking"
+            target='_blank' rel="noreferrer">
             <Box sx={{display: 'flex',
               alignItems: 'center',
               gap: '5px',
